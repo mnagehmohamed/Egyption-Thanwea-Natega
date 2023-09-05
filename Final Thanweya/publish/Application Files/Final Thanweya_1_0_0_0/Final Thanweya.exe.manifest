@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Final Thanweya.exe" version="1.0.0.0" publicKeyToken="4401e402aba06073" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="eagle.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Final Thanweya" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Final Thanweya.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Final Thanweya.exe" size="530952">
+      <assemblyIdentity name="Final Thanweya" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NSvHZ6+4/VVsrE4qZkAbow1+ZjGgn/iuIA7ap+FWHZ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="eagle.ico" size="28819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HcvHBOKQOFa4feIWoJoolX5PgFDZm1BQWDi6sYvaiqI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Final Thanweya.exe.config" size="1410">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OWbL1ixCSNIJGKwLHjNtTMGpd/ir5cWhobkOIbe9FxU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Model1.Context.tt" size="22930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iH6jRm/ArXOO/wVogKb8ZOaRJ6DvCC6vOswudwQkDnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Model1.tt" size="25275">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CabSpKm6yYNT6twBZzKHKM3v3aBYMgNzK0uSDYpHoWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-DCEK7II\programmer19" issuerKeyHash="6083043d9497c7932d6f74a50b1467270a54351c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dDDWf/kvP+07kcVHGSRkwKNVegrFvXRzFcSENEP8HkQ=</DigestValue></Reference></SignedInfo><SignatureValue>fp53VlsUAyiinsf4+WBbK4Dv+lbVCXNLyw1yHKGTo19Yku2Zkq0QQ+EQUkzRD+mDJ4A0MFedz7JTTnDn67bOvHrt8XnonLOW5YZoZOJCsw1aiB8R3QeabqWrUSGfr3vqhmJ8I1X4pw0IRow7SBFV4sWlI9vRlCxlsdVrAVLAerc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8R6O/jUgDrhKiJzfHB7KHJd7XlaKekj7+0AEXURgm9Kf01lp8Ou/b6nKsYlsdOn4SuLG6iThqrM93Zc/nsFdt6/8FZQu1V4K2WoE1vu/0WkVp7S4IIqxBbxzzUgI+f3g2WrFr09dAjfRw7EtK4at/NYgiLVaQ0izoNRiKMvuZsk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="441efc433484c4157374bdc50a7a55a3c064241947c5913bed3f2ff97fd63074" Description="" Url=""><as:assemblyIdentity name="Final Thanweya.exe" version="1.0.0.0" publicKeyToken="4401e402aba06073" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DCEK7II\programmer19</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>twfyzsqpr21ec55qN/b3ATF0sVDShLT15CLlGg5YN2Y=</DigestValue></Reference></SignedInfo><SignatureValue>2sJNE8pJ02CqmPPPorJXeLrkOWsZsFaOjC4BptD2LsYJyrJL2Pecs/ysUkhtPJ1sDBNRpi7+eQRAJJnODz6vNQF3TkSiD7g8XaOJw1PRxw7OdlOhemrV9X+mh3e6klI2IFuqTQGASAnZyzgfK9ardIeOWSOGDCIaqOvr8hK7tzA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8R6O/jUgDrhKiJzfHB7KHJd7XlaKekj7+0AEXURgm9Kf01lp8Ou/b6nKsYlsdOn4SuLG6iThqrM93Zc/nsFdt6/8FZQu1V4K2WoE1vu/0WkVp7S4IIqxBbxzzUgI+f3g2WrFr09dAjfRw7EtK4at/NYgiLVaQ0izoNRiKMvuZsk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQN4OoRARcIKFH9duQj03DODANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtAEQAQwBFAEsANwBJAEkAXABwAHIAbwBnAHIAYQBtAG0AZQByADEAOTAeFw0yMzA4MDYxMzM4MjhaFw0yNDA4MDUxOTM4MjhaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0ARABDAEUASwA3AEkASQBcAHAAcgBvAGcAcgBhAG0AbQBlAHIAMQA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDxHo7+NSAOuEqInN8cHsocl3teVop6SPv7QARdRGCb0p/TWWnw679vqcqxiWx06fhK4sbqJOGqsz3dlz+ewV23r/wVlC7VXgrZagTW+7/RaRWntLggirEFvHPNSAj5/eDZasWvT10CN9HDsS0rhq381iCItVpDSLOg1GIoy+5myQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALaQP6jPyuhl2fVv3xjn27lf18jux/7vq+ZLIQF9bFNmHT4Y/842lNLq8XLA+65kcH2wEmdGMOn+Xy7Q9hlhSWCFe4wqC1/nwrC7grEmapb+wn6sO+gEGG5wEWrnVd/obEYCHMT2GhlFOQnq3lia6MV1NIjX2nR2Bh7j4kJpGuMK</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

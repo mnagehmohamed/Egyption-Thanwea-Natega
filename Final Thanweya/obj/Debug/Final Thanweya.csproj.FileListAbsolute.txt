@@ -1,0 +1,24 @@
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\Final Thanweya.exe.config
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\Final Thanweya.exe
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\Final Thanweya.pdb
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.csproj.AssemblyReference.cache
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.csproj.SuggestedBindingRedirects.cache
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final_Thanweya.Form1.resources
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final_Thanweya.Properties.Resources.resources
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.csproj.GenerateResource.cache
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.csproj.CoreCompileInputs.cache
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.exe
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.pdb
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\EntityFramework.dll
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\EntityFramework.xml
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.csproj.CopyComplete
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Interop.WMPLib.dll
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.csproj.ResolveComReference.cache
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\Final Thanweya.exe.manifest
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\bin\Debug\Final Thanweya.application
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.TrustInfo.xml
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.exe.manifest
+C:\Users\programmer18\source\repos\Final Thanweya\Final Thanweya\obj\Debug\Final Thanweya.application
